@@ -33,4 +33,10 @@ public class Main {
     private static boolean estNombreEntier(double nombre) {
         return nombre % 1 == 0;
     }
+    public static boolean verif(int a, int b) {
+        if (a == b)
+            return true;
+        else
+            return false;
+    }
 }
